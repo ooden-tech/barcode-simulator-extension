@@ -1,0 +1,22 @@
+{
+  "name": "Barcode scanner simulator",
+  "description": "Barcode scanner simulater barcode scan for ResaleAI",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/barcode16.png",
+      "32": "/images/barcode32.png",
+      "48": "/images/barcode48.png",
+      "128": "/images/barcode128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/barcode16.png",
+    "32": "/images/barcode32.png",
+    "48": "/images/barcode48.png",
+    "128": "/images/barcode128.png"
+  }
+}

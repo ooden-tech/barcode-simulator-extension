@@ -1,0 +1,14 @@
+button {
+  margin-left: 10px;
+  border-radius: 2px;
+}
+
+.payload-text {
+  width: 300px;
+  height: 200px;
+}
+
+#errorsSection {
+  color: #cc0000;
+  font-weight: 700;
+}

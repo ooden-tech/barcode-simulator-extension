@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p id="errorsSection"></p>
+    <p>
+      <label>Enter barcode</label>
+      <input type="text" id="barcodeValue" value="" />
+    </p>
+    <p>
+      <button id="sendBarcode">Send barcode</button>
+    </p>
+    <div style="border: 1px solid #3e3e3e; padding: 0px 5px 5px 5px;">
+      <h4>TEMPLATE</h4>
+      <p>
+        <label>Data Type</label>
+        <input type="radio" id="json" name="dataType" value="json" checked />
+        <label for="json">JSON</label>
+        <input type="radio" id="text" name="dataType" value="text" />
+        <label for="text">Plain text</label>
+      </p>
+      <p>
+        <label>Event data (INPUT_DATA will be changed with value of Enter barcode input)</label>
+        <textarea type="text" id="barcodeValueTemplate" class="payload-text"></textarea>
+      </p>      
+      <p>
+        <label>Event names (separated with coma, all will be sent)</label>
+      </p>
+      <p>
+        <input type="text" id="eventNames" value="" />
+      </p>
+      <p>
+        <button id="updateTemplate">Update template</button>
+        <button id="resetTemplate" style="margin-left:30px;">Reset template</button>
+      </p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
